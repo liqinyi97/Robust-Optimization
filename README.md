@@ -12,11 +12,11 @@
 由于稳健优化主要针对均值向量上误差的敏感性，所使用的协方差矩阵应该是真实的协方差矩阵】
 
 #代码：
-Effect of Error in Means, Variances and Covariances – Cvxopt: 参考文献1的复现。【此版代码存在瑕疵，当改动协方差矩阵时作为新的输入前没有判断协方差矩阵的半正定性。但由于之后没有再用到这份数据，因此只在Sensitivity Analysis on Markowitz and Robust Optimization中做了更新与调整】
-Sensitivity Analysis on Markowitz and Robust Optimization: 在不同风险容忍系数下传统Markowitz均值方差优化与稳健优化结果对于均值误差的敏感度
-Robust Optimization Efficient Frontier_simulated data: 演示参考文献2中 真实边界与估计边界在Markowitz均值方差优化与稳健优化下的距离
-Optimization Backtest: 分别利用Markowitz均值方差优化与稳健优化构建投资组合并进行回测，对投资组合的表现进行可视化展示
-Optimization_function: 利用Markowitz均值方差优化与稳健优化计算权重的函数
+1. Effect of Error in Means, Variances and Covariances – Cvxopt: 参考文献1的复现。【此版代码存在瑕疵，当改动协方差矩阵时作为新的输入前没有判断协方差矩阵的半正定性。但由于之后没有再用到这份数据，因此只在Sensitivity Analysis on Markowitz and Robust Optimization中做了更新与调整】  
+2. Sensitivity Analysis on Markowitz and Robust Optimization: 在不同风险容忍系数下传统Markowitz均值方差优化与稳健优化结果对于均值误差的敏感度  
+3. Robust Optimization Efficient Frontier_simulated data: 演示参考文献2中 真实边界与估计边界在Markowitz均值方差优化与稳健优化下的距离
+4. Optimization Backtest: 分别利用Markowitz均值方差优化与稳健优化构建投资组合并进行回测，对投资组合的表现进行可视化展示
+5. Optimization_function: 利用Markowitz均值方差优化与稳健优化计算权重的函数
 
 #研究成果：
 Asset Allocation Optimization Project Final Report
